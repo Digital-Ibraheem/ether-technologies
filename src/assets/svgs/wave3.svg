@@ -1,0 +1,10 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 140" width="960" height="140">
+	<title>wave-haikei-svg</title>
+	<defs>
+		<image width="1920" height="600" id="img1" href="data:image/svg+xml;base64,PHN2ZyBpZD0idmlzdWFsIiB2aWV3Qm94PSIwIDAgOTYwIDMwMCIgd2lkdGg9Ijk2MCIgaGVpZ2h0PSIzMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZlcnNpb249IjEuMSI+PHBhdGggZD0iTTAgMTFMMjYuNyAyOUM1My4zIDQ3IDEwNi43IDgzIDE2MCAxMDEuOEMyMTMuMyAxMjAuNyAyNjYuNyAxMjIuMyAzMjAgMTE2LjVDMzczLjMgMTEwLjcgNDI2LjcgOTcuMyA0ODAgODIuOEM1MzMuMyA2OC4zIDU4Ni43IDUyLjcgNjQwIDQxQzY5My4zIDI5LjMgNzQ2LjcgMjEuNyA4MDAgMjMuN0M4NTMuMyAyNS43IDkwNi43IDM3LjMgOTMzLjMgNDMuMkw5NjAgNDlMOTYwIDBMOTMzLjMgMEM5MDYuNyAwIDg1My4zIDAgODAwIDBDNzQ2LjcgMCA2OTMuMyAwIDY0MCAwQzU4Ni43IDAgNTMzLjMgMCA0ODAgMEM0MjYuNyAwIDM3My4zIDAgMzIwIDBDMjY2LjcgMCAyMTMuMyAwIDE2MCAwQzEwNi43IDAgNTMuMyAwIDI2LjcgMEwwIDBaIiBmaWxsPSIjMTQxNDE0IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0ibWl0ZXIiPjwvcGF0aD48L3N2Zz4="/>
+	</defs>
+	<style>
+	.s0 { fill: #1f1f1f } 
+	</style>
+	<use id="wave-haikei (2)" href="#img1" transform="matrix(.5,0,0,.5,0,0)"/>
+</svg>

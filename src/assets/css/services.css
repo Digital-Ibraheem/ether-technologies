@@ -1,0 +1,208 @@
+.service-grid {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    /* To move the entire container to the right 40px, fixing margin issue */
+    margin-right: -40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: none;
+}
+
+.service {
+    background-color: #1f1f1f;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    justify-content: space-around;
+    background-image: url('../images/desktop2.jpg');
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: 40px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.service:nth-of-type(2) {
+    background-image: url('../images/development.jpg');
+}
+
+.service:nth-of-type(4) {
+    background-image: url('../images/branding.jpg');
+}
+
+.service:nth-of-type(5) {
+    background-image: url('../images/optimization.jpg');
+}
+
+.service:nth-of-type(6) {
+    background-image: url('../images/branding.jpg');
+}
+
+.service:nth-of-type(7) {
+    background-image: url('../images/marketing.jpg');
+}
+
+
+.service > h3, .service > p {
+    z-index: 1;
+}
+
+/* .service::after {
+    z-index: 20;
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+} */
+
+.service-fade {
+    background: rgb(30, 30, 30);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+.service-gradient {
+    background: linear-gradient(150deg, rgb(13, 106, 255) -70%, rgba(255,255,255,0) 50%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 20px;
+    z-index: 0;
+}
+
+.service > p {
+    text-align: center;
+}
+
+.service-description-container {
+    padding: clamp(30px, 100px, 8%);
+}
+
+.service-description-parent {
+    background-color: #141414;
+}
+
+.service-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.service-description > img {
+    width: clamp(300px, 50%, 500px);
+    object-fit: contain;
+}
+
+.service-description > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px 0;
+    margin-left: 20px;
+    width: 60%;
+}
+
+.service-description > div > p {
+    margin-top: 18px;
+}
+
+.service-description:last-child {
+    flex-direction: row-reverse;
+    margin-top: 30px;
+}
+
+.service-description:last-child > div {
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.service-description > div > h3 > span {
+    color: var(--primaryLight);
+}
+
+@media only screen and (min-width: 1250px) {
+    .service {
+        width: 25%;
+        height: 19vw;
+        max-height: 350px;
+    }
+
+    .service > p {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .service-description > div > p {
+        font-size: 14px;
+    }
+
+    .service-description > div > h3 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .service-description, .service-description:last-child {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .service-description > img {
+        width: 80%;
+        margin-top: 20px;
+    }
+
+    .service-description > div, .service-description:last-child > div {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .service-description > div > h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .service-description > div > p {
+        font-size: 16px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .service-description > div > h3 {
+        font-size: 25px;
+    }
+
+    .service-description > div > p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .service-description > img, .service-description > div, .service-description:last-child > div {
+        width: 100%;
+    }
+    .service > p {
+        font-size: 14px;
+    }
+    .service > h3 {
+        font-size: 25px;
+    }
+}
