@@ -10,10 +10,6 @@ This is the official website for **Ether Technologies**, a web design and develo
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Contact](#contact)
-- [License](#license)
 
 ## About Ether Technologies
 
