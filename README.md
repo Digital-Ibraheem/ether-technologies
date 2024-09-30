@@ -1,4 +1,6 @@
 # Ether Technologies Website
+https://www.ibraheemdawod.com
+![image](https://github.com/user-attachments/assets/31010901-79a0-4636-a976-6f867f923498)
 
 This is the official website for **Ether Technologies**, a web design and development company based in Ottawa, ON. Our website showcases the services we offer, including custom web development, SEO optimization, strategic marketing, and consulting to help businesses thrive online.
 
