@@ -26,17 +26,14 @@ const PastProjects = ({myRef}) => {
                     <div className="mute-background"></div>
                 </div>
                 <div className="our-service container past-project">
-                    <h4>Dawcon Construction</h4>
+                    <h4>Acrux Solutions</h4>
                     <p>An Ottawa-based construction company who sought and obtained a professional, robust website to effectively showcase their identity and services.</p>                    
-                    <a href='https://dawcon.ca/' target="_blank" rel="noopener noreferrer" className='btn-solid home-btn'>Visit Dawcon</a>
+                    <a href='https://acruxsolutions.ca/' target="_blank" rel="noopener noreferrer" className='btn-solid home-btn'>Visit Acrux</a>
                     <div className="inner-gradient"></div>
                     <div className="mute-background"></div>
-                    <a target="_blank" rel="noopener noreferrer" href='https://github.com/digital-ibraheem'>
-                        <FaGithub className='github-icon' />
-                    </a>
                 </div>
                 <div className="our-service container past-project">
-                    <h4>Portfolio Website</h4>
+                    <h4></h4>
                     <p>A simple yet sleek website created to showcase a developer's portfolio.</p>
                     <a href='https://ibraheemdawod.com/' target="_blank" rel="noopener noreferrer" className='btn-solid home-btn'>Visit Portfolio</a>
                     <div className="inner-gradient"></div>
